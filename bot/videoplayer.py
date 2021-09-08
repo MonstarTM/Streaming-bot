@@ -1,6 +1,7 @@
 import os
 import re
 import pafy
+from pyyoutube import ytdl
 import asyncio
 from pytgcalls import GroupCallFactory
 from pyrogram import Client, filters
@@ -27,10 +28,8 @@ async def stream(client, m: Message):
             youtube_regex_match = re.match(youtube_regex, video)
             if youtube_regex_match:
             	try:
-            		yt = pafy.new(video)
-            		best = yt.getbest()
-            		video_url = best.url
-            	except Exception as e:
+            	        video_url = ytdl(video).besturl()
+        	except Exception as e:
             		await m.reply(f"**Error** -- `{e}`")
             		return
             	msg = await m.reply("`Starting Live Stream...`")
