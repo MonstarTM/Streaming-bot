@@ -1,5 +1,5 @@
 # Telegram Streaming bot
-A Advanced Anime Theme VC Video Player created for playing vidio in the voice chats of Telegram Groups
+A simple VC Video Player created for playing video in the voice chats of Telegram Groups
 
 # Demo 
 <a href="https://t.me/Sstreamming_bot"><img src="https://img.shields.io/badge/Streaming bot-2cb6e0?style=for-the-badge&logo=telegram&logoColor=white"></a>
