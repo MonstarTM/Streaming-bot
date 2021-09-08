@@ -6,10 +6,10 @@ A Advanced Anime Theme VC Video Player created for playing vidio in the voice ch
 
 # Setting up
 1) Add this Bot to your Group and Make it Admin 
-2) Add @Sstreamming_bot to your Group 
+2) Add @Sstreamming_assist to your Group manually.
 
 # Commands
-=>> Vidio Playing 🎧
+=>> Video Playing 🎧
 - /stream : Reply to Video or File That You Want To stream In Vc And You Can Try Lives
 - /endstream  : Stop the stream
 - /start :Start the bot
@@ -33,11 +33,11 @@ Deploy Your Own Bot ♥️ **Star 🌟 Fork 🍴 & Deploy**
 
 ### 💜 Railway
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/mohsinhsn/YuiVidioPlayer&envs=API_ID,API_HASH,BOT_TOKEN,SESSION_NAME,ADMIN,DB_URL,DB_NAME)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/mohsinhsn/Streaming_bot&envs=API_ID,API_HASH,BOT_TOKEN,SESSION_NAME,ADMIN,DB_URL,DB_NAME)
 
 ### 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mohsinhsn/YuiVidioPlayer)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mohsinhsn/Streaming_bot)
 
 Get pyrogram (p)  `SESSION` from here:
 [![Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://repl.it/@SpEcHiDe/GenerateStringSession)
@@ -55,7 +55,7 @@ CMD python3 -m bot
 ```
 
 # Devs
--** monstar**
+- ** monstar**
 - **Achu Biju**
 - **louis**
 - **ProError**
