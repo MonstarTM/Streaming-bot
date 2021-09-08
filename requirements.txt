@@ -15,4 +15,4 @@ pafy
 youtube-dl
 pymongo
 dnspython
-
+PyYouTube==1.0.6
