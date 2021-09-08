@@ -24,7 +24,7 @@ async def stream(client, m: Message):
             youtube_regex = (
                                          r'(https?://)?(www\.)?'
                                        '(youtube|youtu|youtube-nocookie)\.(com|be)/'
-                                       '(watch\?v=|embed/|v/|.+\?v=)?([^&=%\?]{11})')
+                                       '(watch\?v=|embed/|v/|.+\?v=)?([^&=%\?])')
             youtube_regex_match = re.match(youtube_regex, video)
             if youtube_regex_match:
             	try:
