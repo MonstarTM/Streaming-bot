@@ -1,14 +1,14 @@
 {
     "name": "Telegram streaming bot",
-    "description": "A advanced Anime Theme VC Video Player created for playing vidio in the voice chats of Telegram Groups",
+    "description": "A simple VC Video Player created for playing video in the voice chats of Telegram Groups or channel",
     "logo": "https://telegra.ph/file/1adba0bdcbcf7d81c8ab8.jpg",
     "keywords": [
         "pytgcalls",
         "Telegram Bot",
-        "Vidio Vc Steramer"
+        "Video Vc Steramer"
     ],
     "website": "https://t.me/StylishUser",
-    "repository": "https://github.com/mohsinhsn/YuiVidioPlayer",
+    "repository": "https://github.com/mohsinhsn/Streaming_bot",
     "success_url": "https://t.me/StylishUser",
     "env": {
         "API_ID": {
