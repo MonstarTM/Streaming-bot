@@ -1,6 +1,7 @@
 import os
 import re
 import asyncio
+import pafy
 from pyyoutube import ytdl
 from pytgcalls import GroupCallFactory
 from pyrogram import Client, filters
