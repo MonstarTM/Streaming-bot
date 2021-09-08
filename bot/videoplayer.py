@@ -17,7 +17,7 @@ async def stream(client, m: Message):
     replied = m.reply_to_message
     if not replied:
         if len(m.command) < 2:
-            await m.reply("`Reply to some Video or Give Some Live Stream Url!`")
+            await m.reply("`Reply to A Video or Give A Live Stream Url!`")
         else:
             video = m.text.split(None, 1)[1]
             youtube_regex = (
@@ -31,7 +31,7 @@ async def stream(client, m: Message):
             		best = yt.getbest()
             		video_url = best.url
             	except Exception as e:
-            		await msg.edit(f"**Error** -- `{e}`")
+            		await m.reply(f"**Error** -- `{e}`")
             		return
             	msg = await m.reply("`Starting Live Stream...`")
             	chat_id = m.chat.id
@@ -41,7 +41,7 @@ async def stream(client, m: Message):
             	   await group_call.join(chat_id)
             	   await group_call.start_video(video_url)
             	   VIDEO_CALL[chat_id] = group_call
-            	   await msg.edit(f"**▶️ Started [Live Streaming](video) !**")
+            	   await msg.edit(f"*Started [Live Streaming😊](video) !*")
             	except Exception as e:
             		await msg.edit(f"**Error** -- `{e}`")
             else:
@@ -53,7 +53,7 @@ async def stream(client, m: Message):
             	   await group_call.join(chat_id)
             	   await group_call.start_video(video)
             	   VIDEO_CALL[chat_id] = group_call
-            	   await msg.edit(f"**▶️ Started [Live Streaming](video) !**")
+            	   await msg.edit(f"* Started [Live Streaming😊](video) !**")
             	except Exception as e:
             		await msg.edit(f"**Error** -- `{e}`")
             	
@@ -67,7 +67,7 @@ async def stream(client, m: Message):
             await group_call.join(chat_id)
             await group_call.start_video(video)
             VIDEO_CALL[chat_id] = group_call
-            await msg.edit("**▶️ Started Streaming!**")
+            await msg.edit("**▶Started Streaming😊!**")
         except Exception as e:
             await msg.edit(f"**🚫 Error** - `{e}`")
     else:
@@ -78,6 +78,6 @@ async def stopvideo(client, m: Message):
     chat_id = m.chat.id
     try:
         await VIDEO_CALL[chat_id].stop()
-        await m.reply("**⏹️ Stopped Streaming!**")
+        await m.reply("* Stopped Streaming!*")
     except Exception as e:
         await m.reply(f"**🚫 Error** - `{e}`")
