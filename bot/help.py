@@ -21,14 +21,15 @@ Commands
 - /start :Start the bot
 - /help  :To Help You
 - /ly   : To Get lyrics Of Song
-- /ytsong : To Get Link From Youtube
+- /vsearch : To Get Link From Youtube
 - /quote: To Get Anime quote
+- /sysinfo : To get sysinfo
  </b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🎵 Support Chat", url="https://t.me/stylishuser"
+                        "Support Chat", url="https://t.me/stylishuser"
                     )
                 ]
             ]
