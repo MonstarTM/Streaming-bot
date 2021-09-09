@@ -15,9 +15,10 @@ A simple VC Video Player created for playing video in the voice chats of Telegra
 - /start :Start the bot
 - /help  :To Help You
 - /ly   : To Get lyrics Of Song
-- /song : To Get Link From Youtube
+- /vsearch : To Get Link From Youtube
 - /info : to Get Devs
 - /quote : To Get Anime Quotes
+- /sysinfo : To get the sysinfo
 
 # To Do
 ### Add User Info Command
@@ -33,11 +34,11 @@ Deploy Your Own Bot ♥️ **Star 🌟 Fork 🍴 & Deploy**
 
 ### 💜 Railway
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/mohsinhsn/Streaming_bot&envs=API_ID,API_HASH,BOT_TOKEN,SESSION_NAME,ADMIN,DB_URL,DB_NAME)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/mohsinhsn/Streaming-bot&envs=API_ID,API_HASH,BOT_TOKEN,SESSION_NAME,ADMIN,DB_URL,DB_NAME)
 
 ### 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mohsinhsn/Streaming_bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mohsinhsn/Streaming-bot)
 
 Get pyrogram (p)  `SESSION` from here:
 [![Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://repl.it/@SpEcHiDe/GenerateStringSession)
