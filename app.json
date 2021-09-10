@@ -1,6 +1,6 @@
 {
     "name": "Telegram streaming bot",
-    "description": "A simple VC Video Player created for playing video in the voice chats of Telegram Groups or channel",
+    "description": "A simple VC Video Streaming bot created for playing video in the voice chats of Telegram Groups or channel",
     "logo": "https://telegra.ph/file/1adba0bdcbcf7d81c8ab8.jpg",
     "keywords": [
         "pytgcalls",
