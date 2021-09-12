@@ -72,11 +72,11 @@ async def stream(client, m: Message):
     else:
         await m.reply("`Reply to some Video!`")
 
-@Client.on_message(filters.command("endstream"))
+@Client.on_message(filters.command("estream"))
 async def stopvideo(client, m: Message):
     chat_id = m.chat.id
     try:
         await VIDEO_CALL[chat_id].stop()
-        await m.reply("*Stopped Streaming!*")
+        await m.reply("*Ended Streaming!*")
     except Exception as e:
         await m.reply(f"**🚫 Error** - `{e}`")
