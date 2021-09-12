@@ -17,7 +17,7 @@ Setting up
 Commands
 =>> Vidio Playing 🎧
 - /stream : Reply to Video or File That You Want To stream In Vc.
-- /endstream  : Stop the stream
+- /estream  : Stop the stream
 - /start :Start the bot
 - /help  :To Help You
 - /ly   : To Get lyrics Of Song
